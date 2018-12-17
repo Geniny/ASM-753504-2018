@@ -378,9 +378,11 @@ nextLineMultiplication:
 			sub di,2
 			sub si,columnShift
 			loop xoring
+			
+		add si,2
 		
 		pop cx
-		add si,2
+	
 		loop nextColumnPultiplication
 	
 	add di,lineShift
